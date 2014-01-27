@@ -6,4 +6,4 @@
 
 grammar hello;
 
-public <greet> = ( down | left | right | turn ) ;
+public <greet> = ( down | left | right | flip | Stop the game) ;

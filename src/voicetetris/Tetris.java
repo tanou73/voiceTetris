@@ -721,10 +721,12 @@ public class Tetris extends JFrame {
                         tetris.goDown();
                     } else if (resultText.equalsIgnoreCase("left")) {
                         tetris.goLeft();
-                    } else if (resultText.equalsIgnoreCase("turn")) {
+                    } else if (resultText.equalsIgnoreCase("flip")) {
                         tetris.doRotate();
                     } else if (resultText.equalsIgnoreCase("right")) {
                         tetris.goRight();
+                    } else if (resultText.equalsIgnoreCase("Stop the game")){
+                        System.exit(0);
                     } else {
                         System.out.println("Not a good word");
                     }
